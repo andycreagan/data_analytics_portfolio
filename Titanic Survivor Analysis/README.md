@@ -10,5 +10,11 @@ To start the project, I downloaded the [Titanic Dataset from Kaggle](https://www
 In order to explore the data, I created a new dataset in BigQuery. I created a table named titanic_raw which is where I loaded the data contained in the csv file.
 
 ### Step Three: Data transformation
+Next, I created a staging table named titanic_stage where I created several new columns to support data transformations. My SQL code used to create the columns and transform the data are detailed in the .sql file in the repo.
+
+Once the staging table contained the updated columns and transformed data, I created a target table named titanic_final. I exported the data contained in the target table in csv format so that the data could be connected to Tableau.
 
 ### Step Four: Creating data visualizations in Tableau
+In order to have my visualizations make sense of the data, I compared each attribute in the data across passengers that survived and passengers that died when the Titanic sank.
+
+My analysis found meaningful relationships between several attributes and the different passenger groups. The insights garnered from my visualizations are captured in the .pdf file in the repo.
