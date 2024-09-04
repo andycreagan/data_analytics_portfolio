@@ -1,20 +1,21 @@
 # Titanic Survivor Analysis
 
 ## Summary
-For this project, I wanted to analyze a dataset containing information about passengers of the Titanic. My objective was to identify traits or characteristics that were captured in the data that may have made certain passengers more likely to survive than others. In order to complete my analysis, I downloaded a dataset from Kaggle, loaded the dataset into BigQuery for data exploration and transformation using SQL, and created data visualizations in Tableau. In the upcoming sections of this README, I will dive into more detail regarding each step taken in this project.
+For this project, I analyzed a dataset containing information about passengers on the Titanic. My objective was to identify characteristics in the data that were shared by passengers who survived. 
+
+To perform my analysis, I carried out the steps listed below.
 
 ### Step One: Acquiring the dataset
-To start the project, I downloaded the [Titanic Dataset from Kaggle](https://www.kaggle.com/datasets/yasserh/titanic-dataset) in csv format.
+My analysis was based on the [Titanic Dataset](https://www.kaggle.com/datasets/yasserh/titanic-dataset) on Kaggle. I downloaded [Titanic-Dataset.csv] so that the data could be loaded into BigQuery.
 
 ### Step Two: Loading data into BigQuery
-In order to explore the data, I created a new dataset in BigQuery. I created a table named titanic_raw which is where I loaded the data contained in the csv file.
+To explore the data using SQL, I created a dataset and table named titanic. I loaded the data contained in Titanic-Dataset.csv into the titanic table.
 
-### Step Three: Data transformation
-Next, I created a staging table named titanic_stage where I created several new columns to support data transformations. My SQL code used to create the columns and transform the data are detailed in the .sql file in the repo.
+### Step Three: Data exploration
+In order to identify areas where I could focus my analysis, I wrote several SQL queries that allowed me to better understand data quality, key columns in the dataset, and required data transformations. These queries as well as the queries used in the following steps are documented in [titanic_queries_with_comments.sql].
 
-Once the staging table contained the updated columns and transformed data, I created a target table named titanic_final. I exported the data contained in the target table in csv format so that the data could be connected to Tableau.
+### Step Four: Data transformation
 
-### Step Four: Creating data visualizations in Tableau
-In order to have my visualizations make sense of the data, I compared each attribute in the data across passengers that survived and passengers that died when the Titanic sank.
 
-My analysis found meaningful relationships between several attributes and the different passenger groups. The insights garnered from my visualizations are captured in the .pdf file in the repo.
+### Step Five: Creating data visualizations in Tableau
+
