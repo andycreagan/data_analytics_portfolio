@@ -8,9 +8,10 @@ I am currently transitioning into a data analytics career after working as a pro
 
 At this time, I have completed several projects that I am very excited to share with you. In these projects, I  cleaned, transformed, and analyzed data using SQL and created data visualizations in Tableau that communicate the insights uncovered throughout my analysis.
 
-I plan on adding more projects to my portfolio soon, however in the meantime, I hope that you enjoy the projects that are listed below. 
+I plan on adding more projects to my portfolio, however in the meantime, I hope that you enjoy the projects that are listed below. 
 
 ## Projects
+### [Avocado Sales Analysis](https://github.com/andycreagan/data_analytics_portfolio/tree/main/Avocado%20Price%20Analysis)
 ### [Netflix-IMDb Score Analysis](https://github.com/andycreagan/data_analytics_portfolio/tree/main/Netflix-IMDb%20Score%20Analysis)
 ### [Titanic Survivor Analysis](https://github.com/andycreagan/data_analytics_portfolio/tree/main/Titanic%20Survivor%20Analysis)
 
